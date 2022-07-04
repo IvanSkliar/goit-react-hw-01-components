@@ -52,11 +52,15 @@
 }
 
 .stats{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 60px;
-    background-color: rgb(208, 208, 208);
+    border-top: 1px solid #e4e9f0;
+  background-color: #f3f6f9;
+  margin-top: 10%;
+  padding: 0 1rem;
+  font-size: 0.4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px;
+  
 }
 
 .item{
