@@ -16,8 +16,6 @@ export const App = () => {
                 location={user.location}
                 avatar={user.avatar}
                 followers={user.stats.followers}
-                views={user.stats.views}
-                likes={user.stats.likes}
                 stats={user.stats}
             />
 
@@ -27,11 +25,10 @@ export const App = () => {
            
         
             
-            {friends.map(friend => (
+            
                 <FriendList
-                    key={friend.id}
-                friends={friend} />
-            ))}
+                friends={friends} />
+           
            
             
                 <TransactionHistory
